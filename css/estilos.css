@@ -30,6 +30,8 @@ body {
     /* padding: 10px; */
 }
 
+/* COLOR DE LINKS */
+
 a {
     color: #ccc;
     text-decoration: none;
@@ -40,6 +42,10 @@ a {
 }
 
 .contacto {
+    color: white;
+}
+
+.practica {
     color: white;
 }
 
@@ -152,13 +158,13 @@ ul {
     color: red;
 }
 
-/* BOTON DESCARGA */
+/* BOTON MANUAL */
 .button {
     display: flex;
     height: 50px;
     padding: 0;
     margin-left: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     background: #009578;
     border: none;
     outline: none;
@@ -229,7 +235,49 @@ ul {
 
 .button__icon2 {
     font-size: 1.5em;
-    background: rgba(0, 0, 0, 0.08);
+    background: rgba(0, 0, 0, 0.10);
+}
+
+/* BOTON PRACTICA */
+.button3 {
+    display: flex;
+    width: 190px;
+    height: 50px;
+    padding: 0;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    background: #ff1212;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button3:hover {
+    background: #b30000;
+}
+
+.button3:active {
+    background: #740000;
+}
+
+.button__text3,
+.button__icon3 {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+}
+
+.button__icon3 {
+    margin-left: 10px;
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.15);
 }
 
 /* GALERIA */
